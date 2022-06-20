@@ -1,0 +1,45 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/sort/sort",
+    "pages/cart/cart",
+    "pages/mine/mine"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ff1d1d",
+    "navigationBarTitleText": "南洋商城",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/index.png",
+      "selectedIconPath": "images/indexFull.png"
+     },
+     {
+      "pagePath": "pages/sort/sort",
+      "text": "分类",
+      "iconPath": "images/sort.png",
+      "selectedIconPath": "images/sort.png"
+     },
+     {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "images/cart.png",
+        "selectedIconPath": "images/cartFull.png"
+       },
+       {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "images/mine.png",
+        "selectedIconPath": "images/mine.png"
+       }
+   ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

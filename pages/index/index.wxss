@@ -1,0 +1,56 @@
+/**index.wxss**/
+.search {
+    display: flex;
+    flex-direction: row;
+    height: 70rpx;
+    align-items: center;
+}
+
+.search .search-input {
+    padding: 5rpx;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 90%;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.search-icon {
+    width: 30rpx;
+    height: 30rpx;
+}
+
+.search-text {
+    top: 0px;
+    padding: 0px;
+    left: 0rpx;
+    right: 0rpx;
+}
+.search-btn{
+    border-radius: 60rpx;
+    right: -70rpx;
+}
+/* 搜索功能结束 */
+.swiper_banner{
+   
+}
+.userinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #aaa;
+}
+
+.userinfo-avatar {
+    overflow: hidden;
+    width: 128rpx;
+    height: 128rpx;
+    margin: 20rpx;
+    border-radius: 50%;
+}
+
+.usermotto {
+    margin-top: 200px;
+}
